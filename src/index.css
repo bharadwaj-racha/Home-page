@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.section1 {
+  background: radial-gradient(#212025, #2a2840);
+}
+.section3 {
+  background-color:#1E1E1E ;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  color: #e1eeeb;
+  min-height: 100vh;
+}
+
+#header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+
+#header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+#header h1 {
+  font-size: 1.5rem;
+}
+
+#user-input {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #307e6c, #2b996d);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+#user-input label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#user-input input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #76c0ae;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #c2e9e0;
+  font-size: 1rem;
+}
+
+#result {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: right;
+}
+
+#result thead {
+  font-size: 0.7rem;
+  color: #83e6c0;
+}
+
+#result tbody {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.85rem;
+  color: #c2e9e0;
+}
+
+.center {
+  text-align: center;
+}
+.box{
+  background-color: #ffffff;
+}
+.button{
+  background-color: #6C5FF5;
+  /* width: fit-content; */
+}
+.main-head {
+  background: linear-gradient(0deg, #ffffff 0%, #6B61FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* width: fit-content; */
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 24pt;
+  font-stretch: condensed;
+}
+.box-text2{
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 65px;
+  font-stretch: condensed; 
+  color: #1E1E1E;
+  width: fit-content;
+}
+.sub-text {
+  font-family: 'Nohemi', sans-serif;
+  font-size: 16px;
+  font-stretch: condensed;
+}
+.box-text{
+  font-family: 'Nohemi', sans-serif;
+  font-size: 32px;
+  font-stretch: condensed;
+  color: #1E1E1E;
+}
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('path/to/BricolageGrotesque-Regular.woff2') format('woff2'),
+       url('path/to/BricolageGrotesque-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  src: url('path/to/Nohemi-Regular.woff2') format('woff2'),
+       url('path/to/Nohemi-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.section2 {
+  background-color: #2A2A2B;
+}
+.sf-text {
+  font-family: 'Nohemi', sans-serif;
+  font-size: 32px;
+  font-stretch: condensed;
+}
+.sf-sub-text {
+  font-family: 'Nohemi', sans-serif;
+  font-size: 16px;
+  font-stretch: condensed;
+}
+.sf-box1{
+  background-image: url('./assets/frame1.png');
+  background-size: contain;
+    background-repeat: no-repeat;
+  text-align: justify;
+  line-height: 19.2px;
+  min-height: 302px;
+}
+.button2 {
+  background-color: #ffffff;
+  color: #1E1E1E;
+  /* width: fit-content; */
+}
+.sf-box2{
+  background-image: url('./assets/frame2.png');
+  background-size: contain;
+    background-repeat: no-repeat;
+  text-align: justify;
+  color: #1E1E1E;
+  line-height: 19.2px;
+  min-height: 302px;
+}
+.sf-box3{
+  background-image: url('./assets/frame3.png');
+  background-size: contain;
+    background-repeat: no-repeat;
+  text-align: justify;
+  color: #1E1E1E;
+  line-height: 19.2px;
+  min-height: 302px;
+}
+.button3 {
+  background-color: #7A186F;
+  color: #FFC4F8;
+  border: 5px solid #FFC4F8;
+  rotate: -12deg;
+} 
+.button4 {
+  background-color: #0A9B6B;
+  color: #6DFFCF;
+  border: 5px solid #6DFFCF;
+  rotate: -12deg;
+}
